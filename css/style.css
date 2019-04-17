@@ -1,6 +1,7 @@
  html, body {
   height: 100%;
   background: linear-gradient(to bottom right, #86E5FF, #7DE8BC);
+  text-align: center;
 }
 
 header{
@@ -9,12 +10,12 @@ header{
   font-weight: normal;
   font-style: normal;
   color: whitesmoke;
-  font-size: 40px;
-  padding: 3%;
+  font-size: 125px;
+  padding: 2%;
 }
 
 input {
-  display: block;
+  display: inline-block;
   margin: 0 auto;
   text-align: center;
   border-radius: 5px;
@@ -26,9 +27,14 @@ input {
   width: 30%;
 }
 
-label {
-  font-family: Arial; 
-  color: white;
-  font-size: 30px;
+ul#list {
+  width: 40%;
+  display: inline-block;
 }
 
+label {
+  font-family: Arial; 
+  color: whitesmoke;
+  font-size: 30px;
+  width: 5%;
+}
