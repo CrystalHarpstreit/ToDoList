@@ -28,3 +28,7 @@ label {
   font-family: Arial; 
   color: white;
 }
+
+#check {
+  text-align: center;
+}
