@@ -1,0 +1,23 @@
+ body {
+   background: #86E5FF;
+}
+
+header{
+  font-family: Arial; 
+  color: white;
+  font-size: 20px;
+}
+
+input {
+  border-radius: 5px;
+  background: #FDB3FF;
+  border: none;
+  font-family: Arial; 
+  color: white;
+  height: 20px;
+}
+
+label {
+  font-family: Arial; 
+  color: white;
+}
