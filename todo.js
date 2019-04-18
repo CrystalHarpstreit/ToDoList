@@ -11,17 +11,18 @@ inpt.addEventListener('keydown', function(event){
   
   /*when the enter button is pushed, add item.*/
   if (event.keyCode == 13) {
-    /*append a new li to the ul with the text from the box*/
-    list.appendChild(listItem);
-    list.appendChild(checkbox);
-    list.appendChild(label).innerHTML = inptVal;
+    /*append checkbox to li*/
+    listItem.appendChild(checkbox);
+    /*append label to li*/
+    listItem.appendChild(label).innerHTML = inptVal;
     inpt.value = ' ';
+    /*append list item to ul*/
+    list.appendChild(listItem);
   }
   
   checkbox.onclick = function(){
     label.innerHTML = ' ';
-    list.removeChild(label);
-    list.removeChild(checkbox);
+    listItem.removeChild(label);
+    listItem.removeChild(checkbox);
   }
 });
-

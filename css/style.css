@@ -30,18 +30,25 @@ input {
   border-radius: 5px;
   background: whitesmoke;
   border: none;
-  font-family: Arial; 
+  font-family: 'Oxygen', sans-serif;
+  font-size: 18px;
   color: #666;
   height: 40px;
 }
 
 ul#list {
+  width: 40%;
   height: 100%;
+  margin: 0 auto;
 }
 
 #check, label {
-  font-family: Arial; 
+  border-top: 1px dashed whitesmoke;
+  border-bottom: 1px dashed whitesmoke;
+  font-family: 'Oxygen', sans-serif; 
   color: whitesmoke;
   font-size: 30px;
-  width: 5%;
+  padding-right: 10%;
+  margin: 3%;
+  padding: 2%;
 }
