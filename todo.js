@@ -7,10 +7,12 @@ inpt.addEventListener('keydown', function(event){
   checkbox.type = 'checkbox';
   checkbox.setAttribute('id', 'check');
   var label = document.createElement('label');
+  var listItem = document.createElement('li');
   
   /*when the enter button is pushed, add item.*/
   if (event.keyCode == 13) {
     /*append a new li to the ul with the text from the box*/
+    list.appendChild(listItem);
     list.appendChild(checkbox);
     list.appendChild(label).innerHTML = inptVal;
     inpt.value = ' ';
