@@ -43,7 +43,6 @@ ul#list {
 }
 
 #check, label {
-  border-top: 1px dashed whitesmoke;
   border-bottom: 1px dashed whitesmoke;
   font-family: 'Oxygen', sans-serif; 
   color: whitesmoke;
@@ -51,4 +50,5 @@ ul#list {
   padding-right: 10%;
   margin: 3%;
   padding: 2%;
+  margin: 0 auto;
 }
